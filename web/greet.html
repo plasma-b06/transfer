@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>SKIT</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const inputField = document.getElementById("inputField");
+            const paragraph = document.querySelector("p");
+            let body = document.querySelector("body");
+
+            inputField.addEventListener("input", function() {
+                paragraph.textContent = ("Hello " + inputField.value).trim();
+            });
+            document.querySelector("#green").addEventListener("click", function() {
+                body.style.backgroundColor = "green";
+            });
+            document.querySelector("#red").addEventListener("click", function() {
+                body.style.backgroundColor = "red";          
+            });
+            document.querySelector("#blue").addEventListener("click", function() {
+                body.style.backgroundColor = "blue";          
+            });
+            document.querySelector("#yellow").addEventListener("click", function() {
+                body.style.backgroundColor = "yellow";
+            });
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000;
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px;
+            background-color: cyan;
+            font-size: 16px;
+        }
+        p {
+            font-size: 20px;
+            color: #00ff00;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            background-color: bisque;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="name" autofocus>
+    <p></p>
+    <div>
+        <hr>
+        <button id="green" type="button">green</button>
+        <button id="red" type="button">red</button>
+        <button id="blue" type="button">blue</button>
+        <button id="yellow" type="button">yellow</button>
+    </div>
+</body>
+</html>

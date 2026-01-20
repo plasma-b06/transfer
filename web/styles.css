@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6b85af;
+    color: #333;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+title {
+    text-align: center;
+    background-color: #4caf96;
+    color: rgb(205, 38, 38);
+    padding: 10px 0;
+    text-align: center
+}
+.hobbies {
+    text-wrap: normal;
+    text-decoration: none;
+    list-style-type: bullet;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: turquoise;
+    padding: 0;
+}
+#ageGuess{
+    color: darkseagreen;
+    margin: 0%;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+.highlight {
+    color: #ff6347;
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            document.addEventListener("DOMContentLoaded",function() {
+                document.querySelector("#ageGuess" , function() {
+                    alert("Please enter your guess for my age!");
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to my Homepage</h1>
+        <div>
+            <p>
+                My name is John Doe, and I am a software developer with a passion for creating innovative web applications.
+                I enjoy working with modern technologies and continuously learning new skills to improve my craft.
+            </p>
+            <div class="hobbies">
+                <div>
+                    <h2>some of my hobbies</h2>
+                </div>
+                
+                <ul>
+                    <li>Coding</li>
+                    <li>Reading</li>
+                    <li>Traveling</li>
+                    <li>Photography</li>
+                    <li>Cooking</li>
+                </ul> 
+            </div>
+            <div>
+                <h2>guess my age?</h2>
+                <input type="number" id="ageGuess" placeholder="Enter your guess" />
+                <button onclick="alert('I am 30 years old!')">Submit</button>
+            </div>
+            <div>
+                <footer>
+                    <p>Contact me at: <a href="https://google.com">link</a>
+                    </p>
+                    <p>copyrights </p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

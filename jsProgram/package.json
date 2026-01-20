@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react": "^19.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
